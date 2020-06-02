@@ -1,0 +1,36 @@
+@import 'src/assets/styles/Theme.scss';
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  height: auto !important;
+  background-color: transparent !important;
+  border: 10px double #868686;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  padding: 20px;
+
+  .logo-container {
+    width: 20%;
+    height: 100%;
+  }
+
+  .description-container {
+    align-self: center;
+    width: 80%;
+    height: 100%;
+    color: #fff;
+
+    .description-title {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .description-p {
+      font-size: 18px;
+      text-align: justify;
+    }
+  }
+}

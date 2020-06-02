@@ -1,0 +1,45 @@
+@import 'src/assets/styles/Theme.scss';
+
+#topbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: auto !important;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 5px 2px #B24545;
+
+  .topbar-logo-container {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .topbar-logo {
+    width: 100%;
+    height: 100%;
+    zoom: 1.5;
+  }
+
+  .menu-item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    height: 100%;
+    width: 90%;
+    padding: 20px;
+
+    li {
+      cursor: pointer;
+      align-self: center;
+      margin-left: 10%;
+      list-style-type: none;
+      color: #000;
+  
+      &:hover, &.active {
+        color: #B24545 !important;
+      }
+    }
+  }
+}

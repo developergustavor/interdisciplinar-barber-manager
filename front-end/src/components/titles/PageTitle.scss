@@ -1,0 +1,36 @@
+@import 'src/assets/styles/Theme.scss';
+
+.page-title {
+  color: $accent;
+  display: block;
+  position: relative;
+  width: 100%;
+  font-size: 22px;
+
+  &:after {
+    content: '';
+    background-color: $accent;
+    height: 1px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+
+  span {
+    //background-color: $tertiary;
+    position: relative;
+    z-index: 1;
+    padding-right: 30px;
+    font-weight: 400;
+    display: table-cell;
+  }
+}
+
+@media all and (max-width: 959px) {
+  #title {
+    font-size: 24px;
+  }
+}

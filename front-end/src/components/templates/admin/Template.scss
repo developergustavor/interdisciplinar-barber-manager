@@ -1,0 +1,32 @@
+@import 'src/assets/styles/Theme.scss';
+
+#admin-template {
+  padding: 0px !important;
+
+  .container {
+    min-height: 100vh;
+    background-color: #000 !important;
+    
+    .conteudo {
+      margin-top: 30px;
+      width: 100%;
+
+      .admin-template-title {
+        color: #fff;
+        position: relative !important;
+      
+        span {
+          position: absolute;
+          z-index: 1;
+          top: -10px;
+          left: 40%;
+          padding: 0 15px;
+          height: auto;
+          background-color: $secondary;
+          color: $accent !important;
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}
